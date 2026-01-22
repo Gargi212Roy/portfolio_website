@@ -1,211 +1,274 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>About Me | Front End Web Developer</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header id="header-inner">
-      <div class="container">
-        <nav id="main-nav">
-          <img src="img/logo.png" alt="My Portfolio" id="logo" />
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="current">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <!-- Section-A -->
-    <section id="about-a" class="text-center py-3">
-      <div class="container">
-        <h2 class="section-titile">About Me</h2>
-        <div class="bottom-line"></div>
-        <p class="lead">
-          Let Me Tell You A Little About Myself And What I Do...
-        </p>
-        <div class="about-info">
-          <img src="img/personalPhoto.jpeg" alt="" class="bio-image" />
-          <div class="bio bg-light">
-            <h4>Your Project Is In Safe Hands</h4>
-            <p>
-              Hi, I am Gargi Roy, I'm a Frontend Developer and a third year
-              student pursuing CSE in Heritage Institute Of Technology. I'm
-              proficient in using Next.js, React.js, Redux, TypeScript and
-              JavaScript. I've honed my skills for quite sometime and after
-              investing myself in mastering these languages/frameworks, I'm
-              confident that I can positively contribute to your organization.
-              One of my favourite Applications that I made is a GitHub Finder.
-              In this application, anyone can search for a person who holds an
-              active GitHub Account. They can also get the user's top 10
-              repositories, their bio, and a further link to that actual GitHub
-              Account. I've used the GitHub API for fetching the User data of
-              account holders in GitHub. I'm also quite proficient in C++, C,
-              Java, Python and also in HTML, CSS, SCSS and TailwindCSS. I was
-              also the GDSC Core Team Member of my college for the year of
-              2021-22.
-            </p>
-          </div>
-          <div class="award-1">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Award One</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea,
-              dolore.
-            </p>
-          </div>
-          <div class="award-2">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Award Two</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea,
-              dolore.
-            </p>
-          </div>
-          <div class="award-3">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Award Three</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea,
-              dolore.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- section-b:Progress bars -->
-    <section id="about-b" class="bg-dark py-3">
-      <div class="container">
-        <h2 class="section-title">Technical Skills</h2>
-        <div class="bottom-line"></div>
-        <h4>HTML and CSS:</h4>
-        <div class="progress">
-          <div style="width: 100%"></div>
-        </div>
-        <h4>ReactJs</h4>
-        <div class="progress">
-          <div style="width: 100%"></div>
-        </div>
-        <h4>NextJs</h4>
-        <div class="progress">
-          <div style="width: 80%"></div>
-        </div>
-        <h4>Redux</h4>
-        <div class="progress">
-          <div style="width: 70%"></div>
-        </div>
-      </div>
-    </section>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+			integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+		<title>About Me | Front End Web Developer</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header id="header-inner">
+			<div class="container">
+				<nav id="main-nav">
+					<img src="img/logo.png" alt="My Portfolio" id="logo" />
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html" class="current">About</a></li>
+						<li><a href="work.html">Work</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- Section-A -->
+		<section id="about-a" class="text-center py-3">
+			<div class="container">
+				<h2 class="section-titile">About Me</h2>
+				<div class="bottom-line"></div>
+				<p class="lead">
+					Let Me Tell You A Little About Myself And What I Do...
+				</p>
+				<div class="about-info">
+					<img
+						src="img/personalPhoto.jpeg"
+						alt=""
+						class="bio-image"
+					/>
+					<div class="bio bg-light">
+						<h4>Your Project Is In Safe Hands</h4>
+						<p>
+							Hi, I am Gargi Roy, I'm a Software Developer. I'm
+							proficient in using Springboot, Java, Next.js,
+							React.js, Redux, TypeScript and JavaScript. I've
+							honed my skills for quite sometime and after
+							investing myself in mastering these
+							languages/frameworks, I'm confident that I can
+							positively contribute to your organization.
+							<br />
+							Until recently, I worked as a Software Developer at
+							Sustainiam, contributing across the core product and
+							platform infrastructure. My work includes building a
+							blog management system with AWS S3 storage,
+							implementing a credit-based usage system,
+							integrating secure payment workflows using Razorpay,
+							and developing a robust email delivery pipeline with
+							attachment support. One of my favourite Applications
+							that I made is a GitHub Finder. In this application,
+							anyone can search for a person who holds an active
+							GitHub Account. They can also get the user's top 10
+							repositories, their bio, and a further link to that
+							actual GitHub Account.
+						</p>
+					</div>
+					<div class="award-1">
+						<i class="fas fa-award fa-3x"></i>
+						<h3>Award One</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Ea, dolore.
+						</p>
+					</div>
+					<div class="award-2">
+						<i class="fas fa-award fa-3x"></i>
+						<h3>Award Two</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Ea, dolore.
+						</p>
+					</div>
+					<div class="award-3">
+						<i class="fas fa-award fa-3x"></i>
+						<h3>Award Three</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Ea, dolore.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section-b:Progress bars -->
+		<section id="about-b" class="bg-dark py-3">
+			<div class="container">
+				<h2 class="section-title">Technical Skills</h2>
+				<div class="bottom-line"></div>
 
-    <!-- section C:Logos -->
-    <section id="about-c" class="py-4 bg-light">
-      <div class="container">
-        <div class="about-logos">
-          <img src="img/about-logos/logo-envato.png" alt="" />
-          <img src="img/about-logos/logo-wordpress.png" alt="" />
-          <img src="img/about-logos/logo-woocommerce.png" alt="" />
-          <img src="img/about-logos/logo-magento.png" alt="" />
-        </div>
-      </div>
-    </section>
-    <!-- section:d : testimonials -->
-    <section id="about-d" class="py-4">
-      <div class="container">
-        <h2 class="section-title">Testimonials</h2>
-        <div class="bottom-line"></div>
-        <p class="lead text-center">Take A Look At What My Clients say...</p>
-        <div class="testimonials">
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              dolores cumque, commodi sequi, minima, ullam sit laboriosam
-              explicabo eos cum optio unde porro ratione. Accusantium,
-              distinctio quae. Soluta, modi voluptas!
-            </p>
-            <ul>
-              <li><img src="img/testimonials/person1.jpg" alt="" /></li>
-              <li>Stefen Salvatore, New York</li>
-            </ul>
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              dolores cumque, commodi sequi, minima, ullam sit laboriosam
-              explicabo eos cum optio unde porro ratione. Accusantium,
-              distinctio quae. Soluta, modi voluptas!
-            </p>
-            <ul>
-              <li><img src="img/testimonials/person2.jpg" alt="" /></li>
-              <li>Casee Millar, Boston</li>
-            </ul>
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              dolores cumque, commodi sequi, minima, ullam sit laboriosam
-              explicabo eos cum optio unde porro ratione. Accusantium,
-              distinctio quae. Soluta, modi voluptas!
-            </p>
-            <ul>
-              <li><img src="img/testimonials/person3.jpg" alt="" /></li>
-              <li>Paul Wesley, Australia</li>
-            </ul>
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              dolores cumque, commodi sequi, minima, ullam sit laboriosam
-              explicabo eos cum optio unde porro ratione. Accusantium,
-              distinctio quae. Soluta, modi voluptas!
-            </p>
-            <ul>
-              <li><img src="img/testimonials/person4.jpg" alt="" /></li>
-              <li>Kristen Perales, London</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <footer id="main-footer">
-      <div class="footer-content container">
-        <p>Copyright &copy; 2021. All Rights Reserved</p>
-        <div class="social">
-          <a href="https://github.com/Gargi212Roy"
-            ><i class="fab fa-github"></i
-          ></a>
+				<!-- Frontend -->
+				<h4>HTML & CSS</h4>
+				<div class="progress">
+					<div style="width: 100%"></div>
+				</div>
 
-          <a href="https://www.facebook.com/profile.php?id=100010421949321"
-            ><i class="fab fa-facebook"></i
-          ></a>
+				<h4>React.js</h4>
+				<div class="progress">
+					<div style="width: 100%"></div>
+				</div>
 
-          <a href="https://www.instagram.com/perales212kris/">
-            <i class="fab fa-instagram"></i
-          ></a>
+				<h4>Next.js</h4>
+				<div class="progress">
+					<div style="width: 80%"></div>
+				</div>
 
-          <a href="https://www.linkedin.com/in/gargi-roy-55a74b205/"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-        </div>
-      </div>
-    </footer>
-  </body>
+				<h4>Redux</h4>
+				<div class="progress">
+					<div style="width: 70%"></div>
+				</div>
+
+				<!-- Backend -->
+				<h4>Node.js</h4>
+				<div class="progress">
+					<div style="width: 75%"></div>
+				</div>
+
+				<h4>Express.js</h4>
+				<div class="progress">
+					<div style="width: 75%"></div>
+				</div>
+
+				<h4>Java</h4>
+				<div class="progress">
+					<div style="width: 80%"></div>
+				</div>
+
+				<h4>Spring Boot</h4>
+				<div class="progress">
+					<div style="width: 85%"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- section C:Logos -->
+		<section id="about-c" class="py-4 bg-light">
+			<div class="container">
+				<div class="about-logos">
+					<img src="img/about-logos/logo-envato.png" alt="" />
+					<img src="img/about-logos/logo-wordpress.png" alt="" />
+					<img src="img/about-logos/logo-woocommerce.png" alt="" />
+					<img src="img/about-logos/logo-magento.png" alt="" />
+				</div>
+			</div>
+		</section>
+		<!-- section:d : testimonials -->
+		<section id="about-d" class="py-4">
+			<div class="container">
+				<h2 class="section-title">Testimonials</h2>
+				<div class="bottom-line"></div>
+				<p class="lead text-center">
+					Take A Look At What My Clients say...
+				</p>
+				<div class="testimonials">
+					<div>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing
+							elit. Maiores dolores cumque, commodi sequi, minima,
+							ullam sit laboriosam explicabo eos cum optio unde
+							porro ratione. Accusantium, distinctio quae. Soluta,
+							modi voluptas!
+						</p>
+						<ul>
+							<li>
+								<img
+									src="img/testimonials/person1.jpg"
+									alt=""
+								/>
+							</li>
+							<li>Stefen Salvatore, New York</li>
+						</ul>
+					</div>
+					<div>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing
+							elit. Maiores dolores cumque, commodi sequi, minima,
+							ullam sit laboriosam explicabo eos cum optio unde
+							porro ratione. Accusantium, distinctio quae. Soluta,
+							modi voluptas!
+						</p>
+						<ul>
+							<li>
+								<img
+									src="img/testimonials/person2.jpg"
+									alt=""
+								/>
+							</li>
+							<li>Casee Millar, Boston</li>
+						</ul>
+					</div>
+					<div>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing
+							elit. Maiores dolores cumque, commodi sequi, minima,
+							ullam sit laboriosam explicabo eos cum optio unde
+							porro ratione. Accusantium, distinctio quae. Soluta,
+							modi voluptas!
+						</p>
+						<ul>
+							<li>
+								<img
+									src="img/testimonials/person3.jpg"
+									alt=""
+								/>
+							</li>
+							<li>Paul Wesley, Australia</li>
+						</ul>
+					</div>
+					<div>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing
+							elit. Maiores dolores cumque, commodi sequi, minima,
+							ullam sit laboriosam explicabo eos cum optio unde
+							porro ratione. Accusantium, distinctio quae. Soluta,
+							modi voluptas!
+						</p>
+						<ul>
+							<li>
+								<img
+									src="img/testimonials/person4.jpg"
+									alt=""
+								/>
+							</li>
+							<li>Kristen Perales, London</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer id="main-footer">
+			<div class="footer-content container">
+				<p>Copyright &copy; 2021. All Rights Reserved</p>
+				<div class="social">
+					<a href="https://github.com/Gargi212Roy"
+						><i class="fab fa-github"></i
+					></a>
+
+					<a
+						href="https://www.facebook.com/profile.php?id=100010421949321"
+						><i class="fab fa-facebook"></i
+					></a>
+
+					<a href="https://www.instagram.com/perales212kris/">
+						<i class="fab fa-instagram"></i
+					></a>
+
+					<a href="https://www.linkedin.com/in/gargi-roy-55a74b205/"
+						><i class="fab fa-linkedin"></i
+					></a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
